@@ -1,4 +1,4 @@
-import { Card, Form, Input, InputNumber, Select } from "antd";
+import { Card, Form, Input, Select } from "antd";
 import React, { useEffect, useState } from "react";
 import "./crypto.css";
 import { FcCurrencyExchange } from 'react-icons/fc';
@@ -36,7 +36,7 @@ function Crypto() {
 
   useEffect(() => {
 
-    if(cryptoList.length == 0) return;
+    if(cryptoList.length === 0) return;
 
         const leftSelectRate = cryptoList.find((item) => {
             return item.value === leftSelect
