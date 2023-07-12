@@ -1,0 +1,27 @@
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(229, 227, 244);
+
+}
+
+.input-number{
+    width: 90%;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 5vh;
+}
+
+.para{
+    font-size: 1.3rem;
+}
